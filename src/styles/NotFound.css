@@ -1,0 +1,20 @@
+.notfound-container {
+    text-align: center;
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.notfound-title {
+    font-size: 4rem;
+    color: #00A651;
+    margin-bottom: 10px;
+}
+
+.notfound-container h2 {
+    margin-bottom: 12px;
+}
+
+.notfound-container p {
+    color: #666;
+    margin-bottom: 30px;
+}
