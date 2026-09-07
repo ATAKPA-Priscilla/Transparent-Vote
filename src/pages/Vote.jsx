@@ -26,7 +26,7 @@ function Vote() {
 
 
         try {
-            const response = await fetch("https://transparent-vote-backend.onrender.com/api/results", {
+            const response = await fetch("https://transparent-vote-backend.onrender.com/api/vote", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
