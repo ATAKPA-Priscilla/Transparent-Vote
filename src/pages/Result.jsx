@@ -16,11 +16,11 @@ function Result() {
         const fetchData = async () => {
             try {
                 // National results
-                const nationalRes = await fetch("http://localhost:5000/api/results");
+                const nationalRes = await fetch("https://transparent-vote-backend.onrender.com");
                 const national = await nationalRes.json();
 
                 // All states results
-                const statesRes = await fetch("http://localhost:5000/api/results/states");
+                const statesRes = await fetch("https://transparent-vote-backend.onrender.com/states");
                 const statesData = await statesRes.json();
 
                 if (nationalRes.ok) {
