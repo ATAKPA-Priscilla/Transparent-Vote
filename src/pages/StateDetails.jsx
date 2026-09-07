@@ -14,7 +14,7 @@ function StateDetails() {
         const fetchStateResults = async () => {
             try {
                 const response = await fetch(
-                    `http://localhost:5000/api/results/${stateName}`
+                    `https://transparent-vote-backend.onrender.com/api/results/${stateName}`
                 );
                 const data = await response.json();
 

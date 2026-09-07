@@ -12,7 +12,7 @@ function Home() {
   useEffect(() => {
     const fetchResults = async () => {
       try {
-        const response = await fetch("https://transparent-vote-backend.onrender.com");
+        const response = await fetch("https://transparent-vote-backend.onrender.com/api/results");
         const data = await response.json();
         console.log("Fetched results:", data);
         if (response.ok) {
